@@ -8,6 +8,7 @@ export default function Home() {
     <>
       <h1>Home</h1>
       <Text>Home</Text>
+      <PaperText>Home</PaperText>
       <div>{addAndMultiply(1, 2, 3)}</div>
       <div>{multiplyAndAdd(1, 2, 3)}</div>
     </>
