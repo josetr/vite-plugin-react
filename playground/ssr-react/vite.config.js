@@ -28,6 +28,9 @@ export default defineConfig({
   build: {
     minify: false,
   },
+  ssr: {
+    noExternal: ['react-native-paper'],
+  },
   resolve: {
     extensions: extensions,
     alias: {
